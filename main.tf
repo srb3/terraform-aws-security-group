@@ -1,6 +1,6 @@
 module "this_security_group" {
   source                   = "terraform-aws-modules/security-group/aws"
-  version                  = "v3.10.0"
+  version                  = "v3.16.0"
   create                   = var.create
   name                     = var.name
   description              = var.description
